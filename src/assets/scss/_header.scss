@@ -1,0 +1,37 @@
+.header {
+    margin-top: 52px;
+    margin-bottom: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        width: 177px;
+        left: 0;
+        right: 143px;
+        top: 8px;
+        bottom: 8px;
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+        gap: 41px;
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+
+    &__link {
+        font-family: 'Jost', sans-serif;
+        color: #4d5053;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 125%;
+        color: #4d5053;
+        text-align: center;
+    }
+}

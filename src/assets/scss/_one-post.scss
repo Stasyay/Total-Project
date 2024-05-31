@@ -1,0 +1,56 @@
+.latest-blog {
+    margin-bottom: 100px;
+
+    &__latest-post-title {
+        color: rgb(41, 47, 54);
+        font-family: "DM Serif Display", serif;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 125%;
+        text-align: center;
+    }
+
+    &__latest-post-container {
+        display: flex;
+        gap: 65px;
+        padding-top: 49px;
+        padding-left: 22px;
+        padding-right: 54px;
+    }
+
+    &__post-photo {
+        height: 478px;
+    }
+
+    &__post {
+        padding-top: 52px;
+    }
+
+    &__post-title {
+        color: rgb(41, 47, 54);
+        font-family: "DM Serif Display", serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 125%;
+        text-align: left;
+    }
+
+    &__post-text {
+        color: rgb(77, 80, 83);
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 150%;
+        text-align: left;
+        margin-bottom: 41px;
+    }
+
+    &__box-data {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__link-circle:hover {
+        fill: #CDA274;
+    }
+}

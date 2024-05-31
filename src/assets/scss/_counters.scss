@@ -1,0 +1,33 @@
+.counters {
+    background: rgb(244, 240, 236);
+    height: 457px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 96px;
+
+    &__counter-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    &__count {
+        color: rgb(205, 162, 116);
+        font-family: "DM Serif Display", serif;
+        font-size: 85px;
+        font-weight: 400;
+        line-height: 125%;
+        letter-spacing: 2%;
+        text-align: left;
+    }
+
+    &__counter-dsc {
+        color: rgb(77, 80, 83);
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 150%;
+        text-align: left;
+    }
+}

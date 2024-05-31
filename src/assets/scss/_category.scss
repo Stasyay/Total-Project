@@ -1,0 +1,31 @@
+.category {
+    border: 1px solid rgb(205, 162, 116);
+    border-radius: 20px;
+
+    &__filter {
+        background-color: white;
+        border-radius: 18px;
+        border: none;
+        color: rgb(41, 47, 54);
+        font-family: 'Jost', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 125%;
+        text-align: center;
+        padding: 26px 66px;
+    }
+
+    &__filter:hover {
+        background-color: rgb(205, 162, 116);
+        border-radius: 18px;
+        border: none;
+        color: rgb(255, 255, 255);
+    }
+
+    &__filter-active {
+        background-color: rgb(205, 162, 116);
+        border-radius: 18px;
+        border: none;
+        color: rgb(255, 255, 255);
+    }
+}

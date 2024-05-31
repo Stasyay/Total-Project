@@ -1,0 +1,37 @@
+.blog {
+
+    &__blog-heading {
+        width: 1014px;
+        padding-left: 232px;
+        margin-bottom: 52px;
+    }
+
+    &__blog-title {
+        color: rgb(41, 47, 54);
+        font-family: "DM Serif Display", serif;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 125%;
+        text-align: center;
+        padding-bottom: 8px;
+    }
+
+    &__blog-text {
+        color: rgb(77, 80, 83);
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 150%;
+        text-align: center;
+    }
+
+    &__blog-items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 27px;
+        margin-bottom: 96px;
+    }
+}
+
+// .post:nth-last-child(-n+3) {
+//     display: none;
+// }

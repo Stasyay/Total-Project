@@ -1,0 +1,55 @@
+.project-item {
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 28px;
+    }
+
+    &__item {
+        color: rgb(41, 47, 54);
+        font-family: "DM Serif Display", serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 125%;
+        text-align: left;
+        margin: 0;
+    }
+
+    &__blog-breadcrumbs {
+        text-decoration: none;
+        color: rgb(77, 80, 83);
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 150%;
+        text-align: left;
+        color: rgb(77, 80, 83);
+    }
+
+    &__link-circle:hover {
+        fill: #CDA274;
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__project-img {
+
+        &_0 {
+            border-radius: 0 80px 0 0;
+        }
+
+        &_1 {
+            border-radius: 80px 0 0 0;
+        }
+
+        &_2 {
+            border-radius: 0 0 80px 0;
+        }
+
+        &_3 {
+            border-radius: 0 0 0 80px;
+        }
+    }
+
+}

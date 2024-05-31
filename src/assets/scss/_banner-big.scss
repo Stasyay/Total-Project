@@ -1,0 +1,51 @@
+.banner {
+
+    &__banner-item {
+        background-color: #fff;
+        background-image: url('@/assets/img/Banner.jpg');
+        border-radius: 70px;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 758px;
+    }
+
+    &__banner-title {
+        width: 433px;
+        color: rgb(41, 47, 54);
+        font-family: "DM Serif Display", serif;
+        font-size: 65px;
+        font-weight: 400;
+        line-height: 125%;
+        white-space: pre-line;
+        text-align: left;
+    }
+
+    &__banner-text {
+        width: 433px;
+        color: rgb(77, 80, 83);
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 150%;
+        white-space: pre-line;
+        text-align: left;
+        height: 66px;
+        margin: 18px 0px 48px;
+    }
+
+    &__banner-btn {
+        padding: 14px 49px;
+        border: 1px solid rgb(41, 47, 54);
+        border-radius: 18px;
+        background-color: rgb(41, 47, 54);
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 125%;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .wrapper {
+        padding: 208px 52px;
+    }
+}

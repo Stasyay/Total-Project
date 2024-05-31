@@ -1,0 +1,66 @@
+.page404 {
+    &-box {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+        gap: 30px;
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    &-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    &-header {
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;
+        font-size: min(15vw, 250px);
+        line-height: 1.25;
+        color: #CDA274;
+    }
+
+    &-text {
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;
+        font-size: min(3.4vw, 35px);
+        line-height: 1.5;
+        letter-spacing: 0.01em;
+        color: #292F36;
+    }
+
+    &-home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 23px;
+    }
+
+    &-btn {
+        font-family: 'Jost', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding: 26px 54px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    box-shadow: 0 10px 20px 0 rgba(192, 192, 192, 0.35);
+    }
+
+    &-img {
+        border-radius: 0 0 0 27vw;
+    }
+}
